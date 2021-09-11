@@ -38,11 +38,14 @@ Recopilar datos metereologicos para su posterior analisis, midiendo a diferentes
 
 **Librerias**
 
-* Lora Library: https://github.com/xreef/LoRa_E32_Series_Library
+* Lora Library: https://github.com/KrisKasprzak/EBYTE
 * DHT Library: https://github.com/adafruit/DHT-sensor-library
-* BMP180 Library: https://github.com/sparkfun/BMP180_Breakout
-* DHT 11 Library: https://github.com/adafruit/DHT-sensor-library
+* BMP180 Library: https://github.com/LowPowerLab/SFE_BMP180
 * GPS Neo 6M Library: https://github.com/mikalhart/TinyGPS
+
+**Notas**
+
+* Los dispositivos Lora deben estar preconfigurados para operar, por lo que recomendamos vistualizar el siguiente [tutorial](https://makersportal.com/blog/2019/10/5/arduino-lora-network).
 
 ## Licencia
 
