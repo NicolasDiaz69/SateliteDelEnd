@@ -41,7 +41,6 @@ Recopilar datos metereologicos para su posterior analisis, midiendo a diferentes
 * Lora Library: https://github.com/xreef/LoRa_E32_Series_Library
 * DHT Library: https://github.com/adafruit/DHT-sensor-library
 * BMP180 Library: https://github.com/sparkfun/BMP180_Breakout
-* DHT 11 Library: https://github.com/adafruit/DHT-sensor-library
 * GPS Neo 6M Library: https://github.com/mikalhart/TinyGPS
 
 ## Licencia
