@@ -45,7 +45,7 @@ Recopilar datos metereologicos para su posterior analisis, midiendo a diferentes
 
 **Notas**
 
-* Los dispositivos Lora deben estar preconfigurados para operar, por lo que recomendamos implementar el siguiente [tutorial](https://makersportal.com/blog/2019/10/5/arduino-lora-network).
+* Los dispositivos Lora deben estar preconfigurados para operar, por lo que recomendamos implementar el siguiente [tutorial](https://makersportal.com/blog/2019/10/5/arduino-lora-network) previo al lanzamiento con los modulos LORA.
 
 ## Licencia
 
