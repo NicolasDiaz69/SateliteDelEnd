@@ -16,7 +16,7 @@ Cansat "We always come back" desarrollado en 2021 por:
 
 **Introducción**
 
-*_Cyborg CE es un equipo pereteneciente al Colegio Empresarial Los Andes de Facatativá, Cundinamarca, creado en el año 2021, su objetivo es desarrollar y probar multiples prototipos._* 
+*_Cyborg CEA es un equipo pereteneciente al Colegio Empresarial Los Andes de Facatativá, Cundinamarca, creado en el año 2021, su objetivo es desarrollar y probar multiples prototipos._* 
 
 **Materiales para el lanzamiento del cansat** 
 
