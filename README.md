@@ -16,7 +16,7 @@ Cansat "We always come back" desarrollado en 2021 por:
 
 **Introducción**
 
-*_Cyborg CE es un equipo pereteneciente al Colegio Empresarial Los Andes de Facatativá, Cundinamarca, creado en el año 2021, su objetivo es desarrollar y probar multiples prototipos._* 
+*_Cyborg CEA es un equipo pereteneciente al Colegio Empresarial Los Andes de Facatativá, Cundinamarca, creado en el año 2021, su objetivo es desarrollar y probar multiples prototipos._* 
 
 **Materiales para el lanzamiento del cansat** 
 
@@ -45,7 +45,7 @@ Recopilar datos metereologicos para su posterior analisis, midiendo a diferentes
 
 **Notas**
 
-* Los dispositivos Lora deben estar preconfigurados para operar, por lo que recomendamos vistualizar el siguiente [tutorial](https://makersportal.com/blog/2019/10/5/arduino-lora-network).
+* Los dispositivos Lora deben estar preconfigurados para operar, por lo que recomendamos implementar el siguiente [tutorial](https://makersportal.com/blog/2019/10/5/arduino-lora-network) previo al lanzamiento con los modulos LORA.
 
 ## Licencia
 
