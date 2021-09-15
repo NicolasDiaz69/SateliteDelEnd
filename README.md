@@ -32,6 +32,11 @@ Cansat "We always come back" desarrollado en 2021 por:
 
 Recopilar datos metereologicos para su posterior analisis, midiendo a diferentes alturas (0 - 100 metros).
 
+**Interconexion entre los componentes de hardware**
+
+Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSAT como del modulo receptor.
+[[https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/Schematic_SateliteDelEnd_2021-09-15.png]]
+
 **Software**
 
 * Arduino IDE.
