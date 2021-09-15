@@ -35,7 +35,8 @@ Recopilar datos metereologicos para su posterior analisis, midiendo a diferentes
 **Interconexion entre los componentes de hardware**
 
 Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSAT como del modulo receptor.
-[[https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/Schematic_SateliteDelEnd_2021-09-15.png]]
+
+![Diagrama esquematico](https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/Schematic_SateliteDelEnd_2021-09-15.png)
 
 **Software**
 
