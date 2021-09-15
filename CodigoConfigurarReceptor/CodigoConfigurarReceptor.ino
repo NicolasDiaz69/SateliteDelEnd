@@ -2,13 +2,13 @@
 #include <SoftwareSerial.h>
 #include "EBYTE.h"
 
-#define PIN_M0 4
-#define PIN_M1 5
-#define PIN_AX 6
+#define PIN_M0 D4
+#define PIN_M1 D5
+#define PIN_AX D6
 
 String str_read = "";
 
-SoftwareSerial ESerial(2, 3);
+SoftwareSerial ESerial(D2, D3);
 EBYTE Transceiver(&ESerial, PIN_M0, PIN_M1, PIN_AX);
 
 void setup() {

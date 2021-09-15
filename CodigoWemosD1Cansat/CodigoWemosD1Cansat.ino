@@ -52,6 +52,8 @@ latitud = 0,
 longitud = 0,
 anteriortemperatura = 0,
 anteriorhumedad = 0;
+boolean heartRate = false;
+int HRPin = D0;
 
 unsigned long age;
 String informacion = "";
@@ -71,6 +73,7 @@ const int postingInterval = 3.0 * 1000.0; // post data every x seconds
 void setup() {
   Serial.begin(115200);
   pinMode(ledPower,OUTPUT);
+  pinMode(HRPin, INPUT);
   //Inicializar DHT11.
   dht.begin();
   sensor_t sensor;
@@ -102,6 +105,7 @@ Serial.print ("conectando");
     delay(500);
     Serial.print ("."); 
   }
+  
 }
 
 void loop() {
@@ -115,19 +119,21 @@ void loop() {
   satelites = obtener_satelites(); // Paso 5, obtener cantidad de satelites on-line
   latitud = obtener_latitud(); // Paso 6, obtener latitud
   longitud = obtener_longitud(); // Paso 7, obtener longitud
+  heartRate = digitalRead(HRPin);
 
-  informacion = String (temperatura) + "," + String (humedad) + "," + String (altitud) + "," + String (satelites) + "," + String (latitud) + "," + String (longitud) + String (dust) + ",";
+  informacion = String (temperatura) + "," + String (humedad) + "," + String (altitud) + "," + String (satelites) + "," + String (latitud) + "," + String (longitud) + String (dust) + "," + String (heartRate) + ",";
   informacion+= "https://www.google.com/maps/@";
   informacion+= String(latitud) + ",";
   informacion+= String(longitud) + ",";
   informacion+= "16z";
 
-/*
+
   File dataFile = SD.open("datalog.txt", FILE_WRITE);
   dataFile.println(informacion);
   dataFile.close();
-*/  
+
   Serial.println (informacion);
+  
   if (client.connect(server, 80)) {
     // Construct API request body
     String body = "&field1=";
@@ -157,6 +163,7 @@ void loop() {
     client.print(body);
   }
   client.stop(); 
+  
    
  smartdelay(postingInterval);
 
@@ -167,32 +174,32 @@ double guardar_sd(String data){
   dataFile.close();
 }
 double obtener_longitud(){
-  Serial.print("Longitud: ");
-  Serial.println(flon);
+  //Serial.print("Longitud: ");
+  //Serial.println(flon);
   return flon;
 }
 double obtener_latitud(){
-  Serial.print("Latitud: ");
-  Serial.println(flat);
+  //Serial.print("Latitud: ");
+  //Serial.println(flat);
   return flat;
 }
 int obtener_satelites(){ 
   satelites = gps.satellites();
-  Serial.print("satelites: ");
-  Serial.println(satelites);
+  //Serial.print("satelites: ");
+  //Serial.println(satelites);
   return satelites;
 }
 double obtener_temperatura(){ 
   sensors_event_t event;
   dht.temperature().getEvent(&event);
   if (isnan(event.temperature)) {
-    Serial.println(F("Error reading temperature!"));
+    //Serial.println(F("Error reading temperature!"));
     return anteriortemperatura;
   }
   else {
-    Serial.print(F("Temperature: "));
-    Serial.print(event.temperature);
-    Serial.println(F("°C"));
+    //Serial.print(F("Temperature: "));
+    //Serial.print(event.temperature);
+    //Serial.println(F("°C"));
     anteriortemperatura = event.temperature;
     return event.temperature;
   }
@@ -201,13 +208,13 @@ double obtener_humedad (){
   sensors_event_t event;
   dht.humidity().getEvent(&event);
   if (isnan(event.relative_humidity)) {
-    Serial.println(F("Error reading humidity!"));
+    //Serial.println(F("Error reading humidity!"));
     return anteriorhumedad;
   }
   else {
-    Serial.print(F("Humidity: "));
-    Serial.print(event.relative_humidity);
-    Serial.println(F("%"));
+    //Serial.print(F("Humidity: "));
+    //Serial.print(event.relative_humidity);
+    //Serial.println(F("%"));
     anteriorhumedad = event.relative_humidity;
     return event.relative_humidity; 
   }
@@ -233,9 +240,11 @@ double obtener_altitud()
         if (status != 0) {
           alt = bmp180.altitude(P, Po);
 
+          /*
           Serial.print("Altitude: ");
           Serial.print(alt);
           Serial.println(" Meters");
+          */
           return abs(alt);
         }
       }
@@ -258,6 +267,7 @@ double get_dust_density()
   dustDensity = 0.17 * calcVoltage - 0.1;
   // Ecuacion linear de PM 2.5
   pm05=(calcVoltage-0.0356)*120000;
+  /*
   Serial.print("Raw Signal Value (0-1023): ");
   Serial.print(voMeasured);
   Serial.print(" - Voltage: ");
@@ -266,6 +276,7 @@ double get_dust_density()
   Serial.println(dustDensity);
   Serial.print(" - PM 0.5(particulas/0.01 pie3): ");
   Serial.println(pm05);
+  */
   return abs(dustDensity);
 }
 static void smartdelay(unsigned long ms)
