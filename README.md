@@ -42,6 +42,12 @@ Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSA
 
 * Arduino IDE.
 
+**Como ensamblar el CANSAT**
+
+[Click aqui para ver en Thinkercad](https://www.tinkercad.com/codeblocks/4GfSZVkioQ6-cansat-2021)
+
+![Diagrama](name-of-giphy.gif)
+
 **Librerias**
 
 * Lora Library: https://github.com/KrisKasprzak/EBYTE
