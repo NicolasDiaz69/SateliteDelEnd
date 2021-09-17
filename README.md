@@ -54,6 +54,7 @@ Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSA
 * DHT Library: https://github.com/adafruit/DHT-sensor-library
 * BMP180 Library: https://github.com/LowPowerLab/SFE_BMP180
 * GPS Neo 6M Library: https://github.com/mikalhart/TinyGPS
+* Wemos D1 Led Library: https://github.com/adafruit/Adafruit_NeoPixel
 
 **Notas**
 
