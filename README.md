@@ -46,7 +46,7 @@ Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSA
 
 [Click aqui para ver en Thinkercad](https://www.tinkercad.com/codeblocks/4GfSZVkioQ6-cansat-2021)
 
-![Diagrama](name-of-giphy.gif)
+![Diagrama](https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/Armado_Cansat.gif)
 
 **Librerias**
 
