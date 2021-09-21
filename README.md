@@ -48,6 +48,10 @@ Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSA
 
 ![Diagrama](https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/Armado_Cansat.gif)
 
+**Thingspeak Chanel**
+
+[Cyborg CEA 4.0](https://thingspeak.com/channels/1422276)
+
 **Librerias**
 
 * Lora Library: https://github.com/KrisKasprzak/EBYTE
