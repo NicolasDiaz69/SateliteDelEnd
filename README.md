@@ -19,14 +19,17 @@ Cansat "We always come back" desarrollado en 2021 por:
 *_Cyborg CEA es un equipo pereteneciente al Colegio Empresarial Los Andes de Facatativá, Cundinamarca, creado en el año 2021, su objetivo es desarrollar y probar multiples prototipos._* 
 
 **Materiales para el lanzamiento del cansat** 
-
-* Tarjeta de desarrollo Wemos D1 Mini.
-* Modulo Micro SD.
-* Modulo BMP180.
-* Modulo DHT11.
-* Modulo GPS Neo 6M.
-* Modulo RF 915 MHz E32 915T210.
-* Sensor de Polvo Gp2y1014au0f.
+| Nombre | Cantidad |
+| ------------- | ------------- |
+| Tarjeta de desarrollo Wemos D1 Mini. | 3 |
+| Modulo Micro SD. | 1 |
+| Modulo BMP180.| 1 |
+|Modulo DHT11.| 1 |
+| Modulo GPS Neo 6M.| 1 |
+| Modulo Led RGB.| 1 |
+| Modulo LDR Digital.| 1 |
+| Modulo RF 915 MHz E32 915T210.| 1 |
+| Sensor de Polvo Gp2y1014au0f.| 1 |
 
 **Objetivo**
 
