@@ -21,15 +21,15 @@ Cansat "We always come back" desarrollado en 2021 por:
 **Materiales para el lanzamiento del cansat** 
 | Nombre | Cantidad |
 | ------------- | ------------- |
-| Tarjeta de desarrollo Wemos D1 Mini. | 3 |
-| Modulo Micro SD. | 1 |
-| Modulo BMP180.| 1 |
-|Modulo DHT11.| 1 |
-| Modulo GPS Neo 6M.| 1 |
-| Modulo Led RGB.| 1 |
-| Modulo LDR Digital.| 1 |
-| Modulo RF 915 MHz E32 915T210.| 1 |
-| Sensor de Polvo Gp2y1014au0f.| 1 |
+| [Tarjeta de desarrollo Wemos D1 Mini.](https://www.prometec.net/wemos-d1-esp8266-wifi/) | 3 |
+| [Modulo Micro SD.](https://www.prometec.net/wemos-d1-esp8266-wifi/) | 1 |
+| [Modulo BMP180.](https://www.electronicaembajadores.com/es/Productos/Detalle/LCA2007/modulos-electronicos/arduino-d1-mini/wemos-d1-mini-sensor-de-presion-barometrica-bmp180) | 1 |
+| [Modulo DHT11.](https://tienda.bricogeek.com/wemos-d1-mini/1591-shield-temperatura-y-humedad-dht11-para-wemos-d1-mini.html) | 1 |
+| [Modulo GPS Neo 6M.](https://randomnerdtutorials.com/guide-to-neo-6m-gps-module-with-arduino/) | 1 |
+| [Modulo Led RGB.](https://www.wemos.cc/en/latest/d1_mini_shield/rgb_led.html) | 1 |
+| [Modulo LDR Digital.](https://forum.arduino.cc/t/ldr-sensor-digital-sensitivity/389338) | 1 |
+| [Modulo RF 915 MHz E32 915T210.](https://www.didacticaselectronicas.com/index.php/comunicaciones/lora/m%C3%B3dulo-lora-915mhz-tarjetas-modulos-lora-lo-ra-de-comunicaci%C3%B3n-transmisores-rf-inal%C3%A1mbricos-wireless-sx1276-de-largo-alcance-de-915mhz-iot-detail)| 1 |
+| [Sensor de Polvo Gp2y1014au0f.](https://co.mouser.com/ProductDetail/Sharp-Microelectronics/GP2Y1014AU0F?qs=rrS6PyfT74eynj5J61tvwA%3D%3D) | 1 |
 
 **Objetivo**
 
