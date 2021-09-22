@@ -57,7 +57,7 @@ Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSA
 
 **Resultados**
 
-***Tiempo Real***
+***Thingspeak***
 
 ![Diagrama](https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/ResultadosRT.PNG)
 
