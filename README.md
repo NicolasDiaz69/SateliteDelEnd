@@ -52,6 +52,38 @@ Acontinuación encontraras en una imagen el diagrama esquematico tanto del CANSA
 
 [Cyborg CEA 4.0](https://thingspeak.com/channels/1422276)
 
+**Resultados**
+
+***Tiempo Real***
+
+![Diagrama](https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/ResultadosRT.PNG)
+
+***Post-Procesados***
+
+![Diagrama](https://raw.githubusercontent.com/NicolasDiaz69/SateliteDelEnd/main/Extra/ResultadosLog.PNG)
+
+**Conclusiones**
+
+1. Contrario a la relacion que se evidencia a baja altura (<50 metros) donde al aumentar la altura disminuye la temperatura, hemos evidenciado por las mediciones obtenidas que al aumentar la altitud aumenta tambien la temperatura puesto que nos acercamos mas al sol (El cual es un comportamiento mas cercano al que experimentaria un satelite en orbita terrestre - Calor extremo en el dia, frio extremo en la noche).
+
+2. La humedad refleja un comportamiento inverso al de la temperatura, por lo que a mayor temperatura menor humedad.
+
+2. Tras realizar registro del tiempo de vuelo hasta el punto mas alto (menos de 30 segundos) se evidencia que el lanzamiento de un satélite tipo Bala resulta más óptimo en tiempo que un lanzamiento propulsado con combustible líquido, una bala disparada al aire puede subir hasta 1.6 Kilómetros en pocos segundos.
+
+3. Las lecturas obtenidas demuestran que al aumentar la altura la temperatura disminuye junto con la presión atmosférica.
+
+4. El diseño modular y simplificado tanto del cansat como del dispositivo de lanzamiento facilita su implementación en diferentes espacios y su fácil traslado.
+
+**Aplicaciones futuras**
+
+1. Tras el desarrollo de este proyecto podemos concluir que los microsatélites análogo a los celulares tendrán mayor cantidad de sensores a futuro y su software será actualizable para extender sus prestaciones.
+
+2. Los microsatélites pueden a futuro contar con un sistema de navegación muy simple de forma que su caída al finalizar su ciclo de vida sea en un terreno en el cual se espera para su reutilización.
+
+3. Al ser microsatélites, se podrán crear en el cielo diseños luminosos complejos análogos a los creados por las luciérnagas utilizando algoritmos matemáticos al aprovechar la oscuridad de la noche en conjunto con el LED integrado en el microsatélite.
+
+
+
 **Librerias**
 
 * Lora Library: https://github.com/KrisKasprzak/EBYTE
